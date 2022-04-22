@@ -1,45 +1,34 @@
-	{	
-	name: "ngocyen02/mypackage",	
-	description: "mypackage"	
-	keywords: [	
-	mypackage	
-	],	
-	authors: [	
-	{	
-	name: "ngocyen02",	
-	email: "ngocyentxrt021201@gmail.com"	
-	}	
-	],	
-	license: "MIT",	
-	require: {	
-	},	
-	require-dev: {	
-	},	
-	autoload: {	
-	classmap: [	
-	database	
-	],	
-	psr-4: {	
-	NgocYen02\\Mypackage\\: "src/"	
-	}	
-	},	
-	autoload-dev: {	
-	classmap: [	
-		
-	]	
-	},	
-	scripts: {	
-	},	
-	minimum-stability: "dev",	
-	config: {	
-	preferred-install: "dist"	
-	}	
-	}	
-		
-		
-		
-		
-		
-		
-		
-		
+	{
+    "name": "ngocyen02/mypackage",
+    "description": "mypackage",
+    "keywords": [
+        "mypackage"
+    ],
+    "authors": [
+        {
+            "name": "ngocyen02",
+            "email": "ngocyentxrt021201@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Ngocyen02\\Mypackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
