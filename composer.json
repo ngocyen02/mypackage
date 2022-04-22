@@ -1,13 +1,13 @@
 	{	
-	name: "yentran021201/mypackage",	
+	name: "ngocyen02/mypackage",	
 	description: "mypackage"	
 	keywords: [	
 	mypackage	
 	],	
 	authors: [	
 	{	
-	name: "yentran021201",	
-	email: "ngocyen021201@gmail.com"	
+	name: "ngocyen02",	
+	email: "ngocyentxrt021201@gmail.com"	
 	}	
 	],	
 	license: "MIT",	
@@ -20,7 +20,7 @@
 	database	
 	],	
 	psr-4: {	
-	Yentran021201\\Mypackage\\: "src/"	
+	NgocYen02\\Mypackage\\: "src/"	
 	}	
 	},	
 	autoload-dev: {	
